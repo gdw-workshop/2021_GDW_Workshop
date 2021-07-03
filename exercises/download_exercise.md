@@ -1,5 +1,5 @@
 # Downloading and Processing Datasets and Genomes exercise
-[GDW 2019](http://gdwworkshop.colostate.edu/)
+[GDW 2021](http://gdwworkshop.colostate.edu/)
 ---
 
 ## In this exercise, we will download, process, and evaluate NGS datasets and genome sequences.  We will:
@@ -227,7 +227,7 @@ https://www.ncbi.nlm.nih.gov/genome/
 Search for `Chlamydia psittaci`. This will take you to the genome overview page for this organism. 
 
 You will notice a number of things on this overview page: 
-- There are actually 61 _C. psittaci_ genomes.  One of these has been designated a "Representative genome".  We'll download this one. 
+- There are actually 71 _C. psittaci_ genome assemblies.  One of these has been designated a "Representative genome".  We'll download this one. 
 - There are a number of paths to the actual genome sequence(s).  One simple path is at the top of the page, where there are links to "Download sequences in FASTA format."  
    - Hover over the link to download the genome sequence in FASTA format.  Note that this link points to this URL:
 

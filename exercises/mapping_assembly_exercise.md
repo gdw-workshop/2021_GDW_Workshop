@@ -1,6 +1,6 @@
 ## Mapping and Assembly Exercise
 
-GDW 2019
+GDW 2021
 ---
 
 ### In this exercise, we will learn how to create an index from a reference sequence, then map reads to that reference sequence, and will perform a de novo assembly.  We'll:
