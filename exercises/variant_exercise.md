@@ -1,6 +1,6 @@
 ## Intrahost variation exercise
 
-GDW 2019
+GDW 2021
 ---
 
 ### In this exercise, we will go through a variant calling pipeline. 
@@ -25,7 +25,7 @@ Open the terminal and change directory to a directory of your choosing or stay w
 The files for this exercise are in the GitHub repository.  You can download them using this command:
 
 ```
-curl -O https://raw.githubusercontent.com/stenglein-lab/2017_GDW/master/exercises/variant_exercise_files.tar.gz
+curl -O https://raw.githubusercontent.com/gdw-workshop/2021_GDW_Workshop/master/exercises/variant_exercise_files.tar.gz
 ```
 
 The file extension `.tar.gz` is similar to .zip.  It means this is a compressed set of files.  
