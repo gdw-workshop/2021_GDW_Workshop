@@ -1,5 +1,5 @@
 # A Brief Introduction to the UNIX Command Line
-With the advent of next-generation sequencing and the era of 'Big Data', it is becoming increasingly necessary for researchers to develop basic computational skills.  As a result, at some point in time you will encounter software that does not run via a convenient and user-friendly graphical user interface (GUI).  Although all of us would love a pretty GUI for every program we use, there are certain advantages to interacting with a computer (e.g., a personal computer, server, or cluster) via a command line interface. A command line interface often allows for:  
+With the advent of next-generation sequencing and the era of 'Big Data', it is becoming increasingly necessary for researchers to develop basic computational skills.  As a result, at some point in time you will encounter software that does not run via a convenient and user-friendly _**G**_raphical _**U**_ser _**I**_nterface (**GUI**).  Although all of us would love a pretty GUI for every program we use, there are certain advantages to interacting with a computer (e.g., a personal computer, server, or cluster) via a command line interface. A command line interface often allows for:  
 - Increased flexibility
 - More parameter choices and options
 - More memory efficient
