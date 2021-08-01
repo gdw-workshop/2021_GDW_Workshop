@@ -1,10 +1,10 @@
-## Command-line clinic, continued 
+# Command-line clinic, continued 
 
-### Paths: absolute, relative, and the PATH
+## Paths: absolute, relative, and the PATH
 
 This morning, Bob introduced you to the concept of a path in unix, and explained how paths relate to the heirarchical filesystem.  Let's briefly revisit that topic by discussing absolute paths, relative paths, and the PATH.  
 
-#### absolute paths
+### absolute paths
 
 Absolute paths start at the root of the filesystem.  In other words, absolute paths start with `/`.  These are absolute paths:
 
@@ -14,7 +14,7 @@ Absolute paths start at the root of the filesystem.  In other words, absolute pa
 
 **Absolute paths always refer to the same place, no matter your present working directory**
 
-#### relative paths
+### relative paths
 
 Relative paths don't start with an `/`.   These are relative paths:
 
@@ -26,7 +26,7 @@ Their meaning is dependent on where you are in the filesystem (i.e., what is you
 
 **A relative path's meaning depends on your present working directory**
 
-#### PATH
+## The PATH
 
 The (upper case) PATH has a special meaning in unix environments.  The PATH is a list of directories where the shell will look for commands.  If you didn't have the PATH, you'd always have to type the full path (absolute or relative) of a command to run it, which would be annoying.
 
@@ -37,7 +37,7 @@ PATH is what's called an [environmental variable](https://en.wikipedia.org/wiki/
 
 Can you recognize what other environmental variables mean?
 
-#### The PATH and the `which` command
+### The PATH and the `which` command
 
 The which command will you tell you where in the filesystem a command is, or more specically whether a command exists in your PATH.  To see a description of this command, run:
 
@@ -103,7 +103,7 @@ What's going on?  Why do these commands work or not work?
 
 In real life, you wouldn't sabotage yourself by overwriting your PATH.  There will be an example below of how to change your PATH to add additional directories to it.  For now, close your terminal window and open a new one to reset your enviroment. 
 
-### Installing software from the command line
+## Installing software from the command line
 
 Installing software in a linux command-line environment can be a roadblock to beginners.  Let's practice installing a bioinformatics tool from the command line.
 
@@ -124,7 +124,7 @@ curl -OL https://github.com/gmarcais/Jellyfish/releases/download/v1.1.12/jellyfi
 
 `curl` is a program that will download files from the internet.
 
-Type `ls -lh` to confirm that you have downloaded a file to the pwd named jellyfish-macosx that has a size of 3.6 Mb.  The `-h` option to `ls` outputs file sizes in a **h**uman readable format and the `-l` option outputs a more detailed "**l**ong" listing.
+Type `ls -lh` to confirm that you have downloaded a file to the pwd named jellyfish-macosx that has a size of 1.0 Mb.  The `-h` option to `ls` outputs file sizes in a **h**uman readable format and the `-l` option outputs a more detailed "**l**ong" listing.
 
 Now that we have the file, let's try to run it.  That was the point of downloading it, after all.  Try typing:
 
@@ -183,7 +183,7 @@ You should see an error like this:
 
 Arrgh!  This is why people get frustrated with the command line.  Let's power through!
 
-#### Permissions
+### Permissions
 
 This gets us to another common pitfall: [file permissions](http://linuxcommand.org/lc3_lts0090.php).
 
@@ -231,7 +231,7 @@ Phrew.
 
 Jellyfish got a little mad because you didn't supply enough arguments, but at least it ran!  That's a good sign.  You may also note that it outputs usage information about how to actually run it, which most well-written software should do.  You can also see that it has a `--help` option, which is another common feature of good software (sometimes the option is `-h` or `-help`).  
 
-#### installing from source code
+### installing from source code
 
 If you recall, we also could have downloaded the source code for jellyfish and compiled it to make our own executable program file.  Let's go through that quickly, just so you can see what that process looks like. 
 
@@ -268,13 +268,19 @@ You should see the same output that you saw previously.
 
 Note that different software will have different installation / compilation instructions.  Good software has good installation instructions and will hopefully be easy to install.  
 
+### Conda environments
 
-### Operating more efficiently in the command line environment
+Many commonly used bioinformatics software is available as conda packages.  For instance, here is a [conda package for jellyfish](https://anaconda.org/conda-forge/jellyfish).
+
+"[Conda](https://docs.conda.io/en/latest/) quickly installs, runs and updates packages and their dependencies".  Conda is a great way to handle installing software and avoids many of the pitfalls associated with manual installation mentioned above.  We will not work directly with conda today but it may well be something worth looking into on your own. 
+
+
+## Operating more efficiently in the command line environment
 
 There are a number of simple tricks that will enable you to operate more efficiently in the command line environment.
 
 
-#### Tab completion
+### Tab completion
 
 [Tab completion](https://en.wikipedia.org/wiki/Command-line_completion) will allow you to type less by automatically filling in the names of files and commands when possible.  It works in 2 ways:
 
@@ -300,7 +306,7 @@ For instance, say you want to run bowtie2.  You could type out the program name,
 - `ls D` then hit `tab` twice.  You should see Desktop, Downloads, and Documents, which are all the directories that begin w/ D
 - now type `ls De` and hit `tab` once.  This should complete to Desktop, since De is enough to distinguish Desktop from Downloads and Documents.
 
-Becoming comfortable with tab completion will make your life much easier when typing commmands.  It also helps you avoid typos that make commands fail.
+Becoming comfortable with tab completion will make your life much easier when typing commmands!  It also helps you avoid typos that make commands fail.
 
 ### Wildcards
 
@@ -341,14 +347,14 @@ Now, with these aliases, when you type `ls`, the shell will replace `ls` with `l
 Note that aliases like these will disappear when you close your terminal window and open a new one.  In order to make them persistent, you need to add them to a file in your home directory called `.bashrc`.  [Here's](https://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work) some more reading on the subject.
 
 
-### The shell history, pipes, and `grep`
+## The shell history, pipes, and `grep`
 
-#### history
+### history
 
 You might want to run a command again or just remember how you ran a command previously.  bash keeps track of the commands you ran and you can view a record of your previous commands using the `history` command.  Try running `history`.
 
 
-#### pipes
+### pipes
 
 One really useful feature of bash and similar shells is the ability to use the output of one command as the input of another command.  This process is called piping.  The symbol `|` in bash is called a pipe.  Here's a simple example of how you could pipe two commands together:
 
@@ -360,7 +366,7 @@ ls /usr/local/bin/bowtie*
 ls /usr/local/bin/bowtie* | wc -l
 ```
 
-#### grep
+### grep
 
 `grep` is a command that will search for a pattern in its input and report lines that match that pattern.  The input to `grep` could be a file or it could be input from a pipe, as in this example:
 
@@ -378,23 +384,30 @@ ls /usr/local/bin | grep bowtie | wc -l
 Note that this last command did the same thing as `ls /usr/local/bin/bowtie* | wc -l`, which we ran earlier.  It's also the same as `ls /usr/local/bin/bowtie* | grep -c bowtie`.  In bash there are often many ways to do the same thing!
 
 
-### bash scripting
+## bash scripting
 
-Any file that contains bash commands is a bash script.  A bash script must have executable permissions to be run.
+Any file that contains bash commands is a bash script!  A bash script must have executable permissions to be run.
 
-Let's make some simple scripts to demystify the process.  First, let's make a script that contains the command we use to login to the cctsi-104 remote server.  Open BBEdit, and add the following one line to a file: 
+Storing commands in simple bash scripts is helpful to:
+
+1. Document the commands you ran to do something: this can be a form of record-keeping, like notes you'd make in a lab notebook.
+2. To increase efficiency by automating tasks that you will do repeatedly.
+
+Let's make some simple scripts to demystify the process.  First, let's make a script that measures the disk usage of the files in the present working directory.  Open BBEdit, and add the following one line to a file: 
 
 ```
-ssh gdw@cctsi-104.cvmbs.colostate.edu
+du -sch *
 ```
 
-Save the file to the Desktop, naming it ssh_104 (delete the .txt part of the filename, though it would run fine with that left on).  
+The [du command](https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/)  measures disk usage of files or directories.
+
+Save the file to the Desktop, naming it check_disk_usage (delete the .txt part of the filename, though it would run fine with that left on).  
 
 Now find the file:
 
 ```
 cd ~/Desktop
-ls -l ssh_104
+ls -l check_disk_usage
 ```
 
 What would happen if you tried to run this script?  What command do we need to run to fix it?
@@ -404,18 +417,18 @@ What would happen if you tried to run this script?  What command do we need to r
 That's right, it doesn't have executable permissions.  Let's add them using `chmod`
 
 ```
-chmod +x ssh_104
+chmod +x check_disk_usage
 ```
 
-Now we can run this script and it will execute whatever commands are listed in it.  In this case, it will run `ssh gdw@cctsi-104.cvmbs.colostate.edu`
+Now we can run this script and it will execute whatever commands are listed in it.  In this case, it will run `du -sch *`
 
 Since ~/Desktop is not in our PATH, we have to specify the full path to the script using ./ (assumes pwd is ~/Desktop)
 
 ```
-./ssh_104
+./check_disk_usage
 ```
 
-Bash is also a full-fledged scripting language, and your script can include flow control (if/else statements, loops), and variables.  Let's make a script that includes a for loop and a variable.  Open BBEdit and enter this into a file:
+Bash is not just a command line shell but is also a full-fledged programming language. Your script can include flow control (if/else statements, loops), and variables.  Let's make a script that includes a for loop and a variable.  Open BBEdit and enter this into a file:
 
 ```
 # a for loop 
@@ -429,13 +442,14 @@ done
 
 Save this file to the Desktop, naming it bowtie_script or something like that, give it executable permissions, and run it.  Did it work?
 
-We don't have more time to go into bash scripting today.
+Remember that you can put into a script any command or series of commands that you woul run on the normal command line.
 
-### Finding things in Linux 
+
+## Finding things in Linux 
 
 In this section, we will discuss how to find particular files in linux and also how to find text within files.
 
-#### Finding files in linux
+### Finding files in linux (time permitting)
 
 The `find` command is a useful tool for finding files with specific attributes. 
 
@@ -454,11 +468,9 @@ That's not that interesting.  What's more useful is finding a particular type of
 # change to your home dir
 cd 
 
-# find files ending with .fastq
-find . -name "*.fastq"
+# find files beginning with jellyfish
+find . -name "jellyfish*"
 ```
-
-Did you find the 3 files you downloaded with sftp before?  
 
 You can also combine finding files with performing actions on them.  For instance, say we wanted to list the # of lines in each of those fastq files, you could run a find command like this:
 
