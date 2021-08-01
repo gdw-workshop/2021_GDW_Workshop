@@ -1,5 +1,5 @@
 # A Brief Introduction to the UNIX Command Line
-With the advent of next-generation sequencing and the era of 'Big Data', it is becoming increasingly necessary for researchers to develop basic computational skills.  As a result, at some point in time you will encounter software that does not run via a convenient and user-friendly graphical user interface (GUI).  Although all of us would love a pretty GUI for every program we use, there are certain advantages to interacting with a computer (e.gs., a personal computer, server, or cluster) via a command line interface. A command line interface often allows for:  
+With the advent of next-generation sequencing and the era of 'Big Data', it is becoming increasingly necessary for researchers to develop basic computational skills.  As a result, at some point in time you will encounter software that does not run via a convenient and user-friendly _**G**_raphical _**U**_ser _**I**_nterface (**GUI**).  Although all of us would love a pretty GUI for every program we use, there are certain advantages to interacting with a computer (e.g., a personal computer, server, or cluster) via a command line interface. A command line interface often allows for:  
 - Increased flexibility
 - More parameter choices and options
 - More memory efficient
@@ -27,11 +27,26 @@ Did you open the terminal?  If so, it should look something like this:
 
 ![terminal](../images/term2.png)
 
-Next, simply follow the tutorial below.  The actual commands to enter in the terminal will appear in light grey boxes below.  Although you can copy and paste these commands, we suggest you type them in yourself until you get more familiar with the terminal.  We will learn a few tricks of the trade as we go along as well.
+#### What is a command?
+UNIX **commands** instruct the computer to perform a task.  A command can be very simple one word commands, or have many additional **arguments** (a.k.a. parameters).
+In general, a UNIX command has the following form:
+
+```
+command options(s) filename(s)
+```
+
+The `command` is the name of the program that we are going to execute. 
+The `options` modify the way the command works. Options are typically indicated by one or two hyphens: e.g. `-a` or `--input`. 
+The `filename` is the last argument for many UNIX commands.
+
+#### NOTE:  Commands are CASE SENSITIVE!!!! So, "cat" and "Cat" are two different things!
+
+
+You will enter the commands at the terminal's prompt (see image above), and hit the \<ENTER\> key to run the command. The actual commands to enter in the terminal will appear in light grey boxes in the text below.  Although you can copy and paste these commands, I suggest you type them in yourself until you get more familiar with the terminal.  We will learn a few tricks of the trade as we go along as well.
 Here we go!!!
 
 ### Step 1:  changing directories
-Normally, when you open your computer, you start in the Desktop by default.  The Desktop is actually a directory (folder) in your computer's file system.  When you open a new session in the terminal, you most likely will start in a different location.  To find out where your terminal is 'located', enter the command:
+Normally, when you open your computer's user interface, you see the Desktop by default.  The Desktop is actually a **directory** (folder) in your computer's file system.  When you open a new session in the terminal, you most likely will start in a different location.  To find out where your terminal is 'located', enter the command:
 ```
 pwd
 ```
@@ -61,17 +76,22 @@ It is often the case that you will want to make a new directory, and store a bun
 ```
 mkdir Practice
 ```
-This will make a new directory called "Practice" in the Desktop.  Feel free to change "Practice" to anything you would like.  
+This will make a new directory called "Practice" in the Desktop.  Feel free to change "Practice" to anything you would like.
+
 ### NOTE:  Avoid using spaces in folder or filenames, they can cause a lot of problems.  Use "_" instead!!!
+
 Minimize the terminal and look at your Desktop.  Is your folder there?
 Great!  Now move into this new folder:
+
 ```
 cd Practice
 ```
+
 Piece of cake, huh!
 
 ### Step 3: listing contents
 Now we will look at see which directories and files are inside of a folder.  But first, let's move back to the Desktop.
+
 ```
 cd ../Desktop
 ```
@@ -240,7 +260,7 @@ Is the `Practice` directory still there?
 
 ## Test time!
 Now, on your own I want you to:
-1. Create a directory in your Desktop called "GDW_2019_PRACTICE"
+1. Create a directory in your Desktop called "GDW_2021_PRACTICE"
 2. Make a file called "sequences.fasta" in this new folder.
 3. Write the sequence "ATGCGT" to the file "sequences.fasta"
 4. Record the file size in bytes.
