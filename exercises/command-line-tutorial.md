@@ -96,7 +96,7 @@ Now we will look to see the contents inside of a folder.  Everything on a comput
 But first, let's move back to the Desktop.
 
 ```
-cd ../Desktop
+cd ~/Desktop
 ```
 
 Now, enter the command:
