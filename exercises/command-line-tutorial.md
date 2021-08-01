@@ -128,7 +128,7 @@ To exit the manual for ls, enter `q`.
 
 ___Break time!  Let's reconvene for a minute to make sure we are all on the same page___
 
-![google-comic](../images/goog1.png)
+<img src=../images/goog1.png width="600">
 ---  
 
 ### Step 4: making files
