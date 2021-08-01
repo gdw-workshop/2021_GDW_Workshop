@@ -344,7 +344,7 @@ Want to know what the `-G` and `-l` options do for `ls`?  See `man ls`.
 
 Now, with these aliases, when you type `ls`, the shell will replace `ls` with `ls -G`.  And when you type `ll`, it will replace `ll` with `ls -l`, which will in turn be expanded to `ls -G -l` if you've created both the above aliases.
 
-Note that aliases like these will disappear when you close your terminal window and open a new one.  In order to make them persistent, you need to add them to a file in your home directory called `.bashrc`.  [Here's](https://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work) some more reading on the subject.
+Note that aliases like these will disappear when you close your terminal window and open a new one.  In order to make them persistent, you need to add them to a file in your home directory called `.bash_profile`.  [Here's](https://www.thegeekdiary.com/what-is-the-purpose-of-bash_profile-file-under-user-home-directory-in-linux/) some more reading on the subject.
 
 
 ## The shell history, pipes, and `grep`
