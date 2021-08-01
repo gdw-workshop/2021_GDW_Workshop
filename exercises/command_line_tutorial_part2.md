@@ -49,11 +49,15 @@ Not to be confused with [manwich](https://manwich.com/) ![manwich](./manwich.jpg
 
 The `man` (manual) command is a great way to get more information about built-in linux commands.  You can page through a manual page using the up and down arrows or the space bar.  Press q to exit.  
 
+Most linux commands have detailed manual pages that list all the different options for running them. 
+``` 
+man ls
+```
+
 OK, back to `which`.  All of the commands you run, even basic ones like `ls` and `cd`, are just a file somewhere in your path.  To find out where they are, run:
 
 ```
 which ls
-which cd
 ```
 
 The PATH is a convience, so that instead of always typing:
@@ -64,10 +68,6 @@ The PATH is a convience, so that instead of always typing:
 
 You can just type `ls`.    Though it is worth noting that `/bin/ls` and `ls` both do the same thing (run the `ls` command located in the `/bin` directory).
 
-Even bash itself is a command in your PATH:
-```
-which bash
-```
 
 Other software that you've installed that's not a part of the core operating system, for instance the blastn and bowtie2 aligners, can also be found by `which`:
 
@@ -83,13 +83,14 @@ cd
 export PATH=/Users/gdw
 ```
 
-What do you think the impact of this change will be?  Try this:
-
+Now look at the value of the PATH variable:
 ```
-env
+echo $PATH
 ```
 
-How about these commands?
+What do you think the impact of this change will be?  Recall that the PATH is how the operating system finds commands.
+
+What happens when you run these commands?
 
 ```
 ls
@@ -123,7 +124,7 @@ curl -OL https://github.com/gmarcais/Jellyfish/releases/download/v1.1.12/jellyfi
 
 `curl` is a program that will download files from the internet.
 
-Type `ls -lh` to confirm that you have downloaded a file to the pwd named jellyfish-macosx that has a size of 434 kb.  The `-h` option to `ls` outputs file sizes in a **h**uman readable format and the `-l` option outputs a more detailed "**l**ong" listing.
+Type `ls -lh` to confirm that you have downloaded a file to the pwd named jellyfish-macosx that has a size of 3.6 Mb.  The `-h` option to `ls` outputs file sizes in a **h**uman readable format and the `-l` option outputs a more detailed "**l**ong" listing.
 
 Now that we have the file, let's try to run it.  That was the point of downloading it, after all.  Try typing:
 
@@ -141,11 +142,13 @@ What do you think is going on?
 
 <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br> 
 
-One issue is that the file jellyfish-macosx is not in your PATH.  Or more accurately, jellyfish-macosx is in your home directory, which is not in your PATH.  Let's confirm this by using the which command again:
+One issue is that the file jellyfish-macosx is not in your PATH.  The jellyfish-macosx file is in your home directory, which is not in your PATH.  Let's confirm this by using the which command again:
 
 ```
 which jellyfish-macosx
 ```
+
+If which doesn't produce any output, it means that it coudn't fine a file with that name in your PATH.
 
 To fix this situation, we could either move the jellyfish file into a directory in your PATH, or could add your home directory to your PATH.  The first option would manifest as:
 
@@ -188,7 +191,7 @@ Every file and every directory in linux has a set of permissions that tell wheth
 
 Your user lacked write permissions for `/usr/local/bin`, which is why you couldn't move a file into that directory, and had to use the `sudo` command, which gives you super privileges.  
 
-Similarly, the jellyfish-macosx file that you downloaded did not arrive with executable permissions. And in order to be run as a command, a file needs executable permissions.  
+Similarly, the jellyfish-macosx file that you downloaded *did not download with executable permissions*. And in order to be run as a command, a file needs executable permissions.  
 
 Let's check the permissions on jellyfish:
 
@@ -209,6 +212,8 @@ You can see that the jellyfish-macosx file indeed lacks e**x**ecutable permissio
 ```
 chmod +x /usr/local/bin/jellyfish-macosx
 ```
+
+chmod is the linux command that changes file permissions.  
 
 Now try running:
 
