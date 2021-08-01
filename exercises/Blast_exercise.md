@@ -78,7 +78,7 @@ For this first example, let's download an example protein sequence:
 Wild camel (*Camelus ferus*) ferritin light chain protein [EPY89138.1](https://www.ncbi.nlm.nih.gov/protein/EPY89138.1).
 
 Select -> Send To -> File -> Format: fasta  
-This should be saved in the downloads folder as "sequence.fasta"  
+This should be saved in the `Downloads` (`/Users/gdw/Downloads`) folder as "sequence.fasta"  
 Now let's BLAST!!!
 ```bash
 # First, let's make sure we are starting from the Desktop
