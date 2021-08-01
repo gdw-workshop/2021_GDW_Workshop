@@ -1,11 +1,11 @@
 # A Brief Introduction to the UNIX Command Line
-With the advent of next-generation sequencing and the era of 'Big Data', it is becoming increasingly necessary for researchers to develop basic computational skills.  As a result, at some point in time you will encounter software that does not run via a convenient and user-friendly _**G**_raphical _**U**_ser _**I**_nterface (**GUI**).  Although all of us would love a pretty GUI for every program we use, there are certain advantages to interacting with a computer (e.g., a personal computer, server, or cluster) via a command line interface. A command line interface often allows for:  
+With the advent of next-generation sequencing and the era of 'Big Data', it is becoming increasingly necessary for researchers to develop basic computational skills.  As a result, at some point in time you will encounter software that does not run via a convenient and user-friendly **G**raphical **U**ser **I**nterface (**GUI**).  Although all of us would love a pretty GUI for every program we use, there are certain advantages to interacting with a computer (e.g., a personal computer, server, or cluster) via a command line interface. A command line interface often allows for:  
 - Increased flexibility
 - More parameter choices and options
 - More memory efficient
 - Easier configuration as operating systems change or get updated
 - Sharing of methods (i.e., the code) with others
-- Perhaps most importantly, the ability to concatenate multiple software into convenient, streamlined pipelines that can be sent to servers for rapid, large-scale analyses.
+- Perhaps most importantly, the ability to concatenate multiple software into convenient, streamlined pipelines that can be sent to servers for rapid, large-scale analyses (a.k. a. **scripting**).
 
 ## Objectives
 Here we will briefly learn how to interact with a UNIX computer via the command line. UNIX is the basis for both Mac and Linux computers, which includes most servers you may encounter. The way to interact with a UNIX computer is called the 'interpreter' or 'SHELL'.  On a Mac or Linux computer the default is called BASH. Although other SHELLs exist, we will use BASH below. Our goals are to learn some fundamental commands to perform many of the same tasks you would normally do on a daily basis, such as:  
@@ -51,7 +51,7 @@ Normally, when you open your computer's user interface, you see the Desktop by d
 pwd
 ```
 Make sure to always press the 'enter' (or 'return') key to execute the command.
-The terminal should print your current location, or 'path'.  The path starts with the root of the computer file system, or `/`, and then lists various folders inside of folders until you get to your current location.  Most likely this will not be the Desktop.  To change into the Desktop directory, simply enter:
+The terminal should print your current location, or 'path'.  The path starts with the root of the computer file system, or `/`, and then lists various folders inside of folders until you get to your current location.  Most likely this will not be the Desktop.  In other words, you can always use `pwd` to answer the question **Where am I?** To change into the Desktop directory, simply enter:
 ```
 cd Desktop
 ```
@@ -60,7 +60,7 @@ Next, if you want to back up one level in the directory hierarchy, enter:
 ```
 cd ..
 ```
-The shortcut `..` always means "up one level" in UNIX.  You could always replace the `..` with the full text of the path you want to go.  If you are ever not sure of your location, and want to return to this "Home" location of where started from, then enter:
+The shortcut `..` always means "up one level" in UNIX. This is also called the *parent* folder.  You could always replace the `..` with the full text of the path you want to go.  If you are ever not sure of your location, and want to return to this "Home" location of where you started from, then enter:
 ```
 cd ~
 ```
@@ -80,7 +80,7 @@ This will make a new directory called "Practice" in the Desktop.  Feel free to c
 
 ### NOTE:  Avoid using spaces in folder or filenames, they can cause a lot of problems.  Use "_" instead!!!
 
-Minimize the terminal and look at your Desktop.  Is your folder there?
+Minimize the terminal and look at your Desktop.  Is your new folder there?
 Great!  Now move into this new folder:
 
 ```
@@ -90,7 +90,10 @@ cd Practice
 Piece of cake, huh!
 
 ### Step 3: listing contents
-Now we will look at see which directories and files are inside of a folder.  But first, let's move back to the Desktop.
+Now we will look to see the contents inside of a folder.  Everything on a computer's file system is composed to two things:  
+1. files - which contain data
+2. folders - which can contain more folders, or files
+But first, let's move back to the Desktop.
 
 ```
 cd ../Desktop
