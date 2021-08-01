@@ -335,3 +335,4 @@ cut -d"," -f3-7 file.csv
 - [cheat sheet 1](./cheatsheet1.pdf)
 - [cheat sheet 2](./cheatsheet2.pdf)
 - [cheat sheet 3](./cheatsheet3.pdf)
+- [BASH Scripting Introduction](https://linuxconfig.org/bash-scripting-tutorial-for-beginners)
