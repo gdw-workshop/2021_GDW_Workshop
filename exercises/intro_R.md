@@ -11,7 +11,7 @@ R
 
 However, for this introduction we are going to use a tool called ___R Studio___ as our R environment. ___R Studio___ should already be installed on your computers as well.  You can open ___R Studio___ by searching for it on your computers (click on the magnifying glass in the upper right-hand corner and type "R Studio" and hit \<ENTER\>).
 
-If ___R Studio___ is not available, you can download it at this link: [R Studio](https://download1.rstudio.org/desktop/macos/RStudio-1.2.1335.dmg)
+If ___R Studio___ is not available, you can download it at this link: [R Studio](https://download1.rstudio.org/desktop/macos/RStudio-1.4.1717.dmg)
 
 Once open, ___R Studio___ should look something like this:
 ![Rstudio1](../images/rstudio1.png)
