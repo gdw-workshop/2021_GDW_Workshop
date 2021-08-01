@@ -330,6 +330,7 @@ cut -d"," -f3-7 file.csv
 #### Useful links for additional UNIX tutorials or resources:
 - [Another short beginner's tutorial](https://dbsloan.github.io/TS2018/exercises/unix_commands.html)
 - [A good set of tutorials](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+- [YouTube UNIX Tutorial - **one of my favorites!**](https://youtu.be/8c1BL5b47kg)
 - [Highly recommended tutorials for beginners to novice, complete with graphics](https://swcarpentry.github.io/shell-novice/)
 - [cheat sheet 1](./cheatsheet1.pdf)
 - [cheat sheet 2](./cheatsheet2.pdf)
