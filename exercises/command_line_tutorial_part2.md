@@ -263,6 +263,7 @@ You should see the same output that you saw previously.
 
 Note that different software will have different installation / compilation instructions.  Good software has good installation instructions and will hopefully be easy to install.  
 
+
 ### Operating more efficiently in the command line environment
 
 There are a number of simple tricks that will enable you to operate more efficiently in the command line environment.
@@ -335,45 +336,6 @@ Now, with these aliases, when you type `ls`, the shell will replace `ls` with `l
 Note that aliases like these will disappear when you close your terminal window and open a new one.  In order to make them persistent, you need to add them to a file in your home directory called `.bashrc`.  [Here's](https://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work) some more reading on the subject.
 
 
-### Connecting to remote servers
-
-#### ssh remote shell
-
-We already used `ssh` to connect to a remote server when we were checking the resources available on the cctsi-104 server.  `ssh` provides a shell (like bash) on a remote server.   Let's try connecting again to the cctsi-104 server:
-
-```
-ssh gdw@cctsi-104.cvmbs.colostate.edu
-```
-
-Once logged in, use `ls` to see what files are in the gdw user's home directory on cctsi-104.  
-
-#### sftp file transfer
-
-`sftp` is a command line tool that allows you to copy files back and forth from remote servers.  (`sftp` is the secure (encrypted) version of `ftp`, **f**ile **t**ransfer **p**rotocol).
-
-Let's get those dataset (.fastq files) from the cctsi-104 server.  
-
-```
-sftp gdw@cctsi-104.cvmbs.colostate.edu
-```
-
-`sftp` has some limited shell-like functionality.  For instance, you can `cd`, `ls`, and `pwd` from within your sftp session.  By default, you will be logged into your home directory.  Let's double check that those fastq files are there and then use the `get` command within sftp to transfer them from the remote server to your local computer:
-
-```
-# note, here we are within the sftp session
-pwd
-ls 
-# wildcards work within sftp
-get *.fastq 
-```
-
-Now exit from the sftp session by typing `exit`
-
-You should see that you transferred 3 fastq format sequence files to whatever directory you were in when you ran `sftp`.
-
-`put` is the opposite of `get` in sftp.  You can use it to transfer files _to_ a remote server from the command line.
-
-
 ### The shell history, pipes, and `grep`
 
 #### history
@@ -408,8 +370,7 @@ ls /usr/local/bin | grep bowtie
 ls /usr/local/bin | grep bowtie | wc -l
 ```
 
-Note that this last command did the same thing as `ls /usr/local/bin/bowtie* | wc -l`, which we ran earlier.  It's also the same as `ls /usr/local/bin/bowtie* | grep -c bowtie`.  In bash there are often many ways to do the same thing.
-
+Note that this last command did the same thing as `ls /usr/local/bin/bowtie* | wc -l`, which we ran earlier.  It's also the same as `ls /usr/local/bin/bowtie* | grep -c bowtie`.  In bash there are often many ways to do the same thing!
 
 
 ### bash scripting
@@ -580,3 +541,49 @@ screen -r session_1
 You should now be back in your session, with the sleep command still sleeping.  
 
 When I run long commands remotely, I almost always do so using `screen`. 
+
+
+<br><br><br>
+
+### Connecting to remote servers 
+
+This section is for reference only - we will not be connecting to remote servers today
+
+#### ssh remote shell
+
+We already used `ssh` to connect to a remote server when we were checking the resources available on the cctsi-104 server.  `ssh` provides a shell (like bash) on a remote server.   Let's try connecting again to the cctsi-104 server:
+
+```
+ssh gdw@cctsi-104.cvmbs.colostate.edu
+```
+
+Once logged in, use `ls` to see what files are in the gdw user's home directory on cctsi-104.  
+
+#### sftp file transfer
+
+`sftp` is a command line tool that allows you to copy files back and forth from remote servers.  (`sftp` is the secure (encrypted) version of `ftp`, **f**ile **t**ransfer **p**rotocol).
+
+Let's get those dataset (.fastq files) from the cctsi-104 server.  
+
+```
+sftp gdw@cctsi-104.cvmbs.colostate.edu
+```
+
+`sftp` has some limited shell-like functionality.  For instance, you can `cd`, `ls`, and `pwd` from within your sftp session.  By default, you will be logged into your home directory.  Let's double check that those fastq files are there and then use the `get` command within sftp to transfer them from the remote server to your local computer:
+
+```
+# note, here we are within the sftp session
+pwd
+ls 
+# wildcards work within sftp
+get *.fastq 
+```
+
+Now exit from the sftp session by typing `exit`
+
+You should see that you transferred 3 fastq format sequence files to whatever directory you were in when you ran `sftp`.
+
+`put` is the opposite of `get` in sftp.  You can use it to transfer files _to_ a remote server from the command line.
+
+
+
