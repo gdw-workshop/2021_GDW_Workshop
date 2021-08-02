@@ -62,7 +62,7 @@ Time | Activity
 **14:30-15:15** | [BLAST Tutorial](./exercises/Blast_exercise.md) continued, Bob Fitak
 **15:15-15:30** | Coffee Break
 **15:30-16:00** | [Obtaining data](./lectures/Stenglein_databases_lecture.pdf), Mark Stenglein
-**16:00-17:00** | Data Quality Control [Lecture](./lectures/Fitak_GWD2019_NGS-QC.pdf) and [Exercise](./exercises/download_exercise.md), Bob Fitak and Mark Stenglein
+**16:00-17:00** | Data Quality Control [Lecture](./lectures/Fitak_GWD2021_NGS-QC.pdf) and [Exercise](./exercises/download_exercise.md), Bob Fitak and Mark Stenglein
 **17:00-19:00** | Free time and dinner
 **19:15-21:00** | Optional computer time with instructors
 
