@@ -169,7 +169,7 @@ mv /Users/gdw/Downloads/GECA01.1.fsa_nt.gz .
 
 Alternatively, you can download directly from the command line using the command below:
 ```bash
-curl -O ftp://ftp.ncbi.nlm.nih.gov/sra/wgs_aux/GE/CA/GECA01/GECA01.1.fsa_nt.gz
+curl -O https://ftp.ncbi.nlm.nih.gov/sra/wgs_aux/GE/CA/GECA01/GECA01.1.fsa_nt.gz
 ```
 Easy, huh!  
 Now let's process the data and build a blastable database
