@@ -56,7 +56,7 @@ Time | Activity
 **08:25-08:35** | Introduction to workshop computers, Joe Strecker
 **08:35-10:00** | [Intro to genomics and NGS](./lectures/Stenglein_introduction_to_genomics_and_sequencing_lecture.pdf), Mark Stenglein 
 **10:00-10:20** | Coffee Break
-**10:20-12:15** | BLAST [Lecture](./lectures/Fitak_GWD2019_Blast.pdf) and [Tutorial](./exercises/Blast_exercise.md), Bob Fitak
+**10:20-12:15** | BLAST [Lecture](./lectures/Fitak_GWD2021_Blast.pdf) and [Tutorial](./exercises/Blast_exercise.md), Bob Fitak
 **12:15-13:15** | Lunch Provided Onsite
 **13:15-14:30** | 15 Attendee Presentations
 **14:30-15:15** | [BLAST Tutorial](./exercises/Blast_exercise.md) continued, Bob Fitak
