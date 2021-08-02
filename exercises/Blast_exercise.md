@@ -93,14 +93,14 @@ cd BLAST_PRACTICE
 mv ~/Downloads/sequence.fasta camel_ferritin.faa
 
 # Open the contents of the file
-cat camel_ferritin.fa
+cat camel_ferritin.faa
 
 # To get the help menu for any of our blast tools, type:
 blastp -help
 
 # Now Blast to the refseq-protein database
 blastn \
-   -query camel_ferritin.fa \
+   -query camel_ferritin.faa \
    -db nt \
    -num_alignments 10 \
    -remote \
@@ -110,10 +110,11 @@ blastn \
 cat camel_ferritin.blastout
 
 # Repeat the above search, but limit it to a specific species, e.g. alpacas
-blastp \
+blastn \
    -query camel_ferritin.faa \
-   -db swissprot \
+   -db nt \
    -remote \
+   -num_alignments 10 \
    -out alpaca_ferritins.blastout \
    -entrez_query "Alpaca[ORGN]"
 
@@ -143,9 +144,9 @@ However, this output format can be difficult to parse if we have thousands and t
 Let's repeat the search again, but this time with some changes.
 ```bash
 # New Blast Search
-blastp \
+blastn \
    -query camel_ferritin.faa \
-   -db swissprot \
+   -db nt \
    -remote \
    -num_alignments 10 \
    -outfmt 7 \
