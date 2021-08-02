@@ -74,8 +74,8 @@ When we blast "remotely", we are using our command line to submit a blast search
 This means we must have an internet connection in order to perform the search.
 
 **Note**: The time to complete a remote blast will vary depending on the sequence length, complexity, number of sequences, database, and internet speed.
-For this first example, let's download an example protein sequence:
-Wild camel (*Camelus ferus*) ferritin light chain protein [EPY89138.1](https://www.ncbi.nlm.nih.gov/protein/EPY89138.1).
+For this first example, let's download an example DNA sequence:
+Wild camel (*Camelus ferus*) ferritin light chain protein [XM_010996356.2](https://www.ncbi.nlm.nih.gov/nuccore/XM_010996356.2).
 
 Select -> Send To -> File -> Format: fasta  
 This should be saved in the `Downloads` (`/Users/gdw/Downloads`) folder as "sequence.fasta"  
@@ -93,15 +93,16 @@ cd BLAST_PRACTICE
 mv ~/Downloads/sequence.fasta camel_ferritin.faa
 
 # Open the contents of the file
-cat camel_ferritin.faa
+cat camel_ferritin.fa
 
 # To get the help menu for any of our blast tools, type:
 blastp -help
 
 # Now Blast to the refseq-protein database
-blastp \
-   -query camel_ferritin.faa \
-   -db swissprot \
+blastn \
+   -query camel_ferritin.fa \
+   -db nt \
+   -num_alignments 10 \
    -remote \
    -out camel_ferritin.blastout
 
