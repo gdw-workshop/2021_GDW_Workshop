@@ -262,7 +262,18 @@ Look at the last 10 lines of the file:
 ```
 tail GCF_000204255.1_ASM20425v1_genomic.fna
 ```
-You can see that the file consists of a header line and the genome sequence, with no associated annotation.
+
+You can see that the file consists of header line(s) and the actual sequence, with no associated annotation.
+
+Fasta files can contain more than one sequence.  Each sequence begins with a header line that starts with a `>` character.
+
+Use the grep command to identify lines that contain the `>` character: this will be the header lines (names) of the sequences in this fasta file.
+```
+grep \> GCF_000204255.1_ASM20425v1_genomic.fna
+```
+
+How many sequences are in this genome?  What are they?
+
 
 
 #### Downloading genome annotation
