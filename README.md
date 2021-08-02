@@ -52,16 +52,17 @@ Time | Activity
 --- | ---
 <img width=150/> | <img width=600/>
 **07:00–08:00** | Breakfast
-**08:15-08:25** | [Step 1: What are my NGS tools for wildlife disease research?](./lectures/Introduction_GDW2019.pdf) Jill Pecon Slattery
+**08:15-08:25** | [Step 1: What are my NGS tools for wildlife disease research?](./lectures/Introduction_GDW2021.pdf) Jill Pecon Slattery
 **08:25-08:35** | Introduction to workshop computers, Joe Strecker
 **08:35-10:00** | [Intro to genomics and NGS](./lectures/Stenglein_introduction_to_genomics_and_sequencing_lecture.pdf), Mark Stenglein 
 **10:00-10:20** | Coffee Break
-**10:20-12:15** | BLAST [Lecture](./lectures/Fitak_GWD2019_Blast.pdf) and [Tutorial](./exercises/Blast_exercise.md), Bob Fitak
+**10:20-12:15** | BLAST [Lecture](./lectures/Fitak_GWD2021_BLAST.pdf) and [Tutorial](./exercises/Blast_exercise.md), Bob Fitak
 **12:15-13:15** | Lunch Provided Onsite
 **13:15-14:30** | 15 Attendee Presentations
 **14:30-15:15** | [BLAST Tutorial](./exercises/Blast_exercise.md) continued, Bob Fitak
-**15:15-16:00** | [Obtaining data](./lectures/Stenglein_databases_lecture.pdf), Mark Stenglein
-**16:00-17:00** | Data Quality Control [Lecture](./lectures/Fitak_GWD2019_NGS-QC.pdf) and [Exercise](./exercises/download_exercise.md), Bob Fitak and Mark Stenglein
+**15:15-15:30** | Coffee Break
+**15:30-16:00** | [Obtaining data](./lectures/Stenglein_databases_lecture.pdf), Mark Stenglein
+**16:00-17:00** | Data Quality Control [Lecture](./lectures/Fitak_GWD2021_NGS-QC.pdf) and [Exercise](./exercises/download_exercise.md), Bob Fitak and Mark Stenglein
 **17:00-19:00** | Free time and dinner
 **19:15-21:00** | Optional computer time with instructors
 
