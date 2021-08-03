@@ -76,7 +76,7 @@ Time | Activity
 <img width=150/> | <img width=600/>
 **07:00–08:00** | Breakfast
 **08:15-08:25** | Step 2: Best Practices of Quality Genomes for Host And Pathogen-Where Are We?  [Intro slide](./lectures/Day2_Intro.pdf), Jill Pecon Slattery
-**08:25-09:30** | Mapping to Reference Genomes [Lecture](./lectures/Fitak_GWD2019_Mapping.pdf), Bob Fitak (Mapping activity [Template](./exercises/magnet-sheet.pdf))
+**08:25-09:30** | Mapping to Reference Genomes [Lecture](./lectures/Fitak_GWD2021_Mapping.pdf), Bob Fitak (Mapping activity [Template](./exercises/magnet-sheet.pdf))
 **09:30-10:00** | Flash Talk, Nicole Sexton and Anna Fagre, CSU
 **10:00-10:20** | Coffee Break and Meet Invited Speakers
 **10:20-11:15** | [Mapping Exercise](./exercises/mapping_assembly_exercise.md), Bob Fitak and Mark Stenglein
