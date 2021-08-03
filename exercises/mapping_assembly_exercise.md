@@ -108,6 +108,10 @@ Once you have the boa constrictor mitochondrial genome in a folder in Geneious, 
   - Can you identify mapped read pairs?  
 
 
+<hr><br>
+### Stop here - we will proceed to assembly after lunch?
+<hr><br>
+
 ### De-novo assembly of non-mapping reads
 
 OK, now we've practiced mapping to a reference sequence.  Imagine instead that we don't have a reference sequence.  In that case, we'd need to perform de novo assembly.  
