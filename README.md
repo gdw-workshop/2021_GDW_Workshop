@@ -111,7 +111,7 @@ Time | Activity
 **13:15-15:15** | Phylogenomic Reconstruction Lab Using PAUP [MCRobot](https://phylogeny.uconn.edu/mcmc-robot/#) demo, Jill Pecon Slattery, Justin Lee, Roman Biek, Bob Fitak [exercise files](./exercises/PAUP_Exercise.tar.gz)
 **15:15-15:35** | Coffee Break
 **15:35-15:50** | Introduciton to Bayesian Statistics, Erick Gagne
-**15:50-17:00** | Phylogenomic Reconstruction Lab: [MrBayes](./exercises/MrBayesTutorial.md), Erick Gagne
+**15:50-17:00** | Phylogenomic Reconstruction Lab: [MrBayes](./exercises/MrBayesTutorial-2021.md), Erick Gagne
 **17:00-19:30** | Free time and dinner
 **19:30-20:30** | Plenary Speaker, Colin Parrish, Cornell University
 **20:30-22:00** | Social Hour with Invited Speaker
