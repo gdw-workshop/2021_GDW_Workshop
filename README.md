@@ -80,8 +80,8 @@ Time | Activity
 **09:30-10:00** | Flash Talk, Nicole Sexton and Anna Fagre, CSU
 **10:00-10:20** | Coffee Break and Meet Invited Speakers
 **10:20-11:15** | [Mapping Exercise](./exercises/mapping_assembly_exercise.md), Bob Fitak and Mark Stenglein
-**11:15-12:15** | [Genome Assembly Lecture](./lectures/Stenglein_de_novo_assembly_lecture.pdf), Mark Stenglein
-**12:15-13:15** | Lunch Provided Onsite
+**11:15-12:15** | [Genome Assembly Lecture](./lectures/Stenglein_de_novo_assembly_lecture.pdf), Mark Stenglein Paper Exercise: [PDF](./exercises/assembly_exercise.pdf) [PPT](./exercises/Assembly_exercise.pptx)
+**12:15-13:15** | Lunch Provided Onsite 
 **13:15-15:15** | [Genome Assembly Exercise](./exercises/mapping_assembly_exercise.md), Mark Stenglein and Bob Fitak
 **15:15-15:35** | Coffee Break
 **15:35-16:00** | [Introduction to Metagenomics and Disease](./lectures/Stenglein_metagenomics_lecture.pdf), Mark Stenglein 
