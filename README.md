@@ -84,11 +84,10 @@ Time | Activity
 **12:15-13:15** | Lunch Provided Onsite 
 **13:15-15:15** | [Genome Assembly Exercise](./exercises/mapping_assembly_exercise.md), Mark Stenglein and Bob Fitak
 **15:15-15:35** | Coffee Break
-**15:35-16:00** | [Introduction to Metagenomics and Disease](./lectures/Stenglein_metagenomics_lecture.pdf), Mark Stenglein 
-**16:00-16:35** | Time permitting: Detecting and quantifying variants: [lecture](./lectures/Stenglein_intrahost_variants.pdf) and [exercise](./exercises/variant_exercise.md), Mark Stenglein 
-**16:35-17:00** | Group projects time
+**15:35-16:15** | Group projects time
+**16:15-17:00** | [Introduction to Metagenomics and Disease](./lectures/Stenglein_metagenomics_lecture.pdf), Mark Stenglein 
 **17:00-19:00** | Free time and dinner
-**19:15-21:00** | Optional computer time with instructors
+**19:15-21:00** | Optional computer time with instructors: Detecting and quantifying variants: [lecture](./lectures/Stenglein_intrahost_variants.pdf) and [exercise](./exercises/variant_exercise.md), Mark Stenglein and Bob Fitak
 
 
 ### Wedendsday August 4, 2021. Day 3: Comparative Genomic and Phylogenomic Inferences
