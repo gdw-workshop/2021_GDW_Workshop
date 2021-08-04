@@ -107,7 +107,7 @@ Time | Activity
 **10:50-12:00** | The basics of phylogenomic trees and interpretation, Erick Gagne: [lecture](./lectures/Basics_of_phylogenomics-GDW-2021.pdf)
 **12:00-12:15** | Group projects time
 **12:15-13:15** | Lunch Provided Onsite
-**13:15-15:15** | Phylogenomic Reconstruction Lab Using PAUP [MCRobot](https://phylogeny.uconn.edu/mcmc-robot/#) demo, Jill Pecon Slattery, Bob Fitak [exercise files](./exercises/PAUP_Exercise.tar.gz)
+**13:15-15:15** | Phylogenomic Reconstruction Lab Using PAUP [MCRobot](https://phylogeny.uconn.edu/mcmc-robot/#) demo, Jill Pecon Slattery, Bob Fitak [exercise files](./exercises/PAUP_Exercise.zip)
 **15:15-15:35** | Coffee Break
 **15:35-17:00** | Phylogenomic Reconstruction Lab: [MrBayes](./exercises/MrBayesTutorial-2021.md), Erick Gagne
 **17:00-19:30** | Free time and dinner
