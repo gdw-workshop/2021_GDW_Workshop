@@ -131,7 +131,7 @@ Time | Activity
 **12:15-13:15** | Lunch Provided Onsite
 **13:15-14:00** | Lecture/Discussion from Guest Speaker, Colin Parrish
 **14:00-14:30** | Phylodynamics and NextStrain, Erick Gagne
-**14:30-14:45** | Intro to Selection in Host Genome, Jill Pecon Slattery
+**14:30-14:45** | Intro to Selection in Host Genome - [Lecture](./lectures/NectinSelectionandAdaptation.pdf), Jill Pecon Slattery
 **14:45-15:15** | [Computer Labs](./exercises/PAML_Exercises.tar.gz):  Selection, Adaptation, Variant Detection: PAML and HyPhy, Jill Pecon Slattery
 **15:15-15:25** | Coffee break
 **15:25-15:50** | [Computer Labs(./exercises/PAML_Exercises.tar.gz) continued:  Selection, Adaptation, Variant Detection: PAML and HyPhy, Jill Pecon Slattery
