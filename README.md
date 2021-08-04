@@ -103,7 +103,7 @@ Time | Activity
 **09:00-09:30** | Alignment Computer Lab: Part 1, Jill Pecon Slattery and Erick Gagne [Instructions](./exercises/Alignment_Exercise_Instructions.pdf)
 **09:30-10:00** | CSU Flash Talk, Sue VandeWoude and Laura Bashor
 **10:00-10:20** | Coffee Break and Meet Invited Speakers
-**10:20-10:50** | Alignment computer lab: Part 2, Jill Pecon Slattery and Erick Gagne [exercise files](./exercises/Alignment_Exercise.tar.gz)
+**10:20-10:50** | Alignment computer lab: Part 2, Jill Pecon Slattery and Erick Gagne [exercise files](./exercises/Alignment_Exercise.zip)
 **10:50-12:00** | The basics of phylogenomic trees and interpretation, Erick Gagne
 **12:00-12:15** | Group projects time
 **12:15-13:15** | Lunch Provided Onsite
