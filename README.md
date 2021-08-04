@@ -134,7 +134,7 @@ Time | Activity
 **14:30-14:45** | Intro to Selection in Host Genome - [Lecture](./lectures/NectinSelectionandAdaptation.pdf), Jill Pecon Slattery
 **14:45-15:15** | [Computer Labs](./exercises/PAML_Exercises.tar.gz):  Selection, Adaptation, Variant Detection: PAML and HyPhy, Jill Pecon Slattery
 **15:15-15:25** | Coffee break
-**15:25-15:50** | [Computer Labs(./exercises/PAML_Exercises.tar.gz) continued:  Selection, Adaptation, Variant Detection: PAML and HyPhy, Jill Pecon Slattery
+**15:25-15:50** | [Computer Labs](./exercises/PAML_Exercises.tar.gz) continued:  Selection, Adaptation, Variant Detection: PAML and HyPhy, Jill Pecon Slattery
 **16:00-18:00** | Hike, weather permitting, Laura Bashor
 **17:00-19:00** | Free time and dinner (no evening sessions)
 
