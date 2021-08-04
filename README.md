@@ -90,7 +90,7 @@ Time | Activity
 **19:15-21:00** | Optional computer time with instructors: Detecting and quantifying variants: [lecture](./lectures/Stenglein_intrahost_variants.pdf) and [exercise](./exercises/variant_exercise.md), Mark Stenglein and Bob Fitak
 
 
-### Wedendsday August 4, 2021. Day 3: Comparative Genomic and Phylogenomic Inferences
+### Wednedsday August 4, 2021. Day 3: Comparative Genomic and Phylogenomic Inferences
 Smith Alumni Center 
 
 Time | Activity
@@ -130,7 +130,7 @@ Time | Activity
 **10:20-12:15** | Lab [BEAST, part 1](./exercises/BEAST_Part_1.md), Erick Gagne
 **12:15-13:15** | Lunch Provided Onsite
 **13:15-14:00** | Lecture/Discussion from Guest Speaker, Colin Parrish
-**14:00-14:30** | Phylydynamics and NextStrain, Erick Gagne
+**14:00-14:30** | Phylodynamics and NextStrain, Erick Gagne
 **14:30-14:45** | Intro to Selection in Host Genome, Jill Pecon Slattery
 **14:45-15:15** | [Computer Labs](./exercises/PAML_Exercises.tar.gz):  Selection, Adaptation, Variant Detection: PAML and HyPhy, Jill Pecon Slattery
 **15:15-15:25** | Coffee break
@@ -152,7 +152,7 @@ Time | Activity
 **10:00-10:20** | Coffee Break and Meet Invited Speaker
 **10:20-11:00** | [Population Genomics 101 (continued)](./lectures/GWD_host_pop_genomics_lecture2.pdf), Chris Funk
 **11:00-11:30** | Host Population Genomics in Disease: Landscape Genomics, Chris Funk
-**11:40-12:15** | [Computer Lab: Population Genomics](./exercises/GDW_host_pop_genomics_IF_lab_HO.docx), Chris Funk and Cony McDonald
+**11:40-12:15** | [Computer Lab: Population Genomics](./exercises/GDW_host_pop_genomics_IF_lab_HO.docx), Chris Funk and Coby McDonald
 **12:15-13:15** | Lunch Provided Onsite / Group Discussions
 **13:15-15:15** | Computer Lab: Population Genomics, Chris Funk and Coby McDonald
 **15:15-15:35** | Coffee Break
