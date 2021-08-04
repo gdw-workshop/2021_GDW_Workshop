@@ -98,13 +98,13 @@ Time | Activity
 <img width=150/> | <img width=600/>
 **07:00–08:00** | Breakfast
 **08:15-08:25** | Step 3: Comparing Differences Within and Between Genomes, Jill Pecon Slattery
-**08:25-08:45** | Targeted Pathogen Sequencing, Erick Gagne
+**08:25-08:45** | Targeted Pathogen Sequencing, Erick Gagne: [lecture](./lectures/Targeted-sequencing-GDW-2021.pdf)
 **08:45-09:00** | [Best Practices in Multiple Sequence Alignments](./lectures/Alignments_GDW2019_Lecture.pdf), Jill Pecon Slattery
 **09:00-09:30** | Alignment Computer Lab: Part 1, Jill Pecon Slattery and Erick Gagne [Instructions](./exercises/Alignment_Exercise_Instructions.pdf)
 **09:30-10:00** | CSU Flash Talk, Sue VandeWoude and Laura Bashor
 **10:00-10:20** | Coffee Break and Meet Invited Speakers
 **10:20-10:50** | Alignment computer lab: Part 2, Jill Pecon Slattery and Erick Gagne [exercise files](./exercises/Alignment_Exercise.zip)
-**10:50-12:00** | The basics of phylogenomic trees and interpretation, Erick Gagne
+**10:50-12:00** | The basics of phylogenomic trees and interpretation, Erick Gagne: [lecture](./lectures/Basics_of_phylogenomics-GDW-2021.pdf)
 **12:00-12:15** | Group projects time
 **12:15-13:15** | Lunch Provided Onsite
 **13:15-15:15** | Phylogenomic Reconstruction Lab Using PAUP [MCRobot](https://phylogeny.uconn.edu/mcmc-robot/#) demo, Jill Pecon Slattery, Bob Fitak [exercise files](./exercises/PAUP_Exercise.tar.gz)
