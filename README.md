@@ -152,7 +152,7 @@ Time | Activity
 **10:00-10:20** | Coffee Break and Meet Invited Speaker
 **10:20-11:00** | [Population Genomics 101 (continued)](./lectures/GWD_host_pop_genomics_lecture2.pdf), Chris Funk
 **11:00-11:30** | Host Population Genomics in Disease: Landscape Genomics, Chris Funk
-**11:40-12:15** | [Computer Lab: Population Genomics](./exercises/GDW_host_pop_genomics_IF_lab_HO.docx), Chris Funk and Coby McDonald
+**11:40-12:15** | [Computer Lab: Population Genomics](./exercises/GDW_host_pop_genomics_IF_lab_HO_2021.pdf), Chris Funk and Coby McDonald
 **12:15-13:15** | Lunch Provided Onsite / Group Discussions
 **13:15-15:15** | Computer Lab: Population Genomics, Chris Funk and Coby McDonald
 **15:15-15:35** | Coffee Break
