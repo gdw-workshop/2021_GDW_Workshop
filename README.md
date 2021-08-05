@@ -123,7 +123,7 @@ Time | Activity
 --- | ---
 <img width=150/> | <img width=600/>
 **07:00–08:00** | Breakfast
-**08:15-08:25** | Step 5: Genomics of Host-pathogen Interaction
+**08:15-08:25** | Step 5: Genomics of Host-pathogen Interaction - [Presentation](./lectures/Day4Intro.pdf)
 **08:35-09:30** | Concepts Of Molecular Clocks and their Disease Applications, Erick Gagne: [lecture](./lectures/Molecular_Clocks-EG-GDW-2021.pdf)
 **09:30-10:00** | CSU Flash Talk, Chris Kozakiewicz
 **10:00-10:20** | Coffee Break and Meet Invited Speaker
@@ -132,9 +132,9 @@ Time | Activity
 **13:15-14:00** | Lecture/Discussion from Guest Speaker, Colin Parrish
 **14:00-14:30** | Phylodynamics and NextStrain, Erick Gagne: [lecture](./lectures/Phylodynamics-EG-GDW-2021.pdf)
 **14:30-14:45** | Intro to Selection in Host Genome - [Lecture](./lectures/NectinSelectionandAdaptation.pdf), Jill Pecon Slattery
-**14:45-15:15** | [Computer Labs](./exercises/PAML_Exercises.tar.gz):  Selection, Adaptation, Variant Detection: PAML and HyPhy, Jill Pecon Slattery
+**14:45-15:15** | Computer Labs: [PAML](./exercises/PAML_Exercises.zip) and [HYPHY](./exercises/HyPHY.zip):  Selection, Adaptation, Variant Detection: PAML and HyPhy, Jill Pecon Slattery
 **15:15-15:25** | Coffee break
-**15:25-15:50** | [Computer Labs](./exercises/PAML_Exercises.tar.gz) continued:  Selection, Adaptation, Variant Detection: PAML and HyPhy, Jill Pecon Slattery
+**15:25-15:50** | Computer Labs: [PAML](./exercises/PAML_Exercises.zip) and [HYPHY](./exercises/HyPHY.zip) continued:  Selection, Adaptation, Variant Detection: PAML and HyPhy, Jill Pecon Slattery
 **16:00-18:00** | Hike, weather permitting, Laura Bashor
 **17:00-19:00** | Free time and dinner (no evening sessions)
 
