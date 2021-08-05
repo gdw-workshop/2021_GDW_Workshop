@@ -127,7 +127,7 @@ Time | Activity
 **08:35-09:30** | Concepts Of Molecular Clocks and their Disease Applications, Erick Gagne 
 **09:30-10:00** | CSU Flash Talk, Chris Kozakiewicz
 **10:00-10:20** | Coffee Break and Meet Invited Speaker
-**10:20-12:15** | Lab [BEAST, part 1](./exercises/BEAST_Part_1.md), Erick Gagne
+**10:20-12:15** | Lab [BEAST, part 1](./exercises/BEAST_GDW_exercise-2021.md), Erick Gagne
 **12:15-13:15** | Lunch Provided Onsite
 **13:15-14:00** | Lecture/Discussion from Guest Speaker, Colin Parrish
 **14:00-14:30** | Phylodynamics and NextStrain, Erick Gagne
