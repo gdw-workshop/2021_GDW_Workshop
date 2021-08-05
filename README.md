@@ -124,13 +124,13 @@ Time | Activity
 <img width=150/> | <img width=600/>
 **07:00–08:00** | Breakfast
 **08:15-08:25** | Step 5: Genomics of Host-pathogen Interaction
-**08:35-09:30** | Concepts Of Molecular Clocks and their Disease Applications, Erick Gagne 
+**08:35-09:30** | Concepts Of Molecular Clocks and their Disease Applications, Erick Gagne: [lecture](./lectures/Molecular_Clocks-EG-GDW-2021.pdf)
 **09:30-10:00** | CSU Flash Talk, Chris Kozakiewicz
 **10:00-10:20** | Coffee Break and Meet Invited Speaker
 **10:20-12:15** | Lab [BEAST, part 1](./exercises/BEAST_GDW_exercise-2021.md), Erick Gagne
 **12:15-13:15** | Lunch Provided Onsite
 **13:15-14:00** | Lecture/Discussion from Guest Speaker, Colin Parrish
-**14:00-14:30** | Phylodynamics and NextStrain, Erick Gagne
+**14:00-14:30** | Phylodynamics and NextStrain, Erick Gagne: [lecture](./lectures/Phylodynamics-EG-GDW-2021.pdf)
 **14:30-14:45** | Intro to Selection in Host Genome - [Lecture](./lectures/NectinSelectionandAdaptation.pdf), Jill Pecon Slattery
 **14:45-15:15** | [Computer Labs](./exercises/PAML_Exercises.tar.gz):  Selection, Adaptation, Variant Detection: PAML and HyPhy, Jill Pecon Slattery
 **15:15-15:25** | Coffee break
