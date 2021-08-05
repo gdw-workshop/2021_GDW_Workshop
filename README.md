@@ -90,7 +90,7 @@ Time | Activity
 **19:15-21:00** | Optional computer time with instructors: Detecting and quantifying variants: [lecture](./lectures/Stenglein_intrahost_variants.pdf) and [exercise](./exercises/variant_exercise.md), Mark Stenglein and Bob Fitak
 
 
-### Wednedsday August 4, 2021. Day 3: Comparative Genomic and Phylogenomic Inferences
+### Wednesday August 4, 2021. Day 3: Comparative Genomic and Phylogenomic Inferences
 Smith Alumni Center 
 
 Time | Activity
