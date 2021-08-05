@@ -147,7 +147,7 @@ Time | Activity
 <img width=150/> | <img width=600/>
 **07:00–08:00** | Breakfast
 **08:15-08:25** | Step 4: Applying genomic tools across populations, Jill Pecon Slattery
-**08:25-09:30** | [Population Genomics 101](./lectures/GWD_Workshop_PopGen101_lect.pdf), Chris Funk
+**08:25-09:30** | [Population Genomics 101](./lectures/GWD_Workshop_PopGen101_lect), Chris Funk
 **09:30-10:00** | CSU Flash Talk, Coby McDonald
 **10:00-10:20** | Coffee Break and Meet Invited Speaker
 **10:20-11:00** | [Population Genomics 101 (continued)](./lectures/GWD_host_pop_genomics_lecture2.pdf), Chris Funk
