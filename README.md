@@ -168,8 +168,8 @@ Time | Activity
 <img width=150/> | <img width=600/>
 **07:00–08:00** | Breakfast
 **08:15-08:20** | Step 6: Review of Our Workflow, Jill, Bob, Sue, Chris, Mark
-**08:20-08:50** | Group 6 Project Presentation
-**08:50-09:20** | Group 1 Project Presentation
+**08:20-08:50** | Group 1 Project Presentation
+**08:50-09:20** | Group 6 Project Presentation
 **09:20-09:50** | Group 3 Project Presentation
 **09:50-10:20** | Group 4 Project Presentation
 **10:20-10:50** | Group 5 Project Presentation
