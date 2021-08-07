@@ -176,7 +176,7 @@ Time | Activity
 **10:50-11:20** | Group 2 Project Presentation
 **11:20-12:00** | Concluding Remarks & Farewells
 
-
+### Proposal Scoring Link: https://forms.gle/iNuvDHHTPXZupqJc8
 
 **Other materials**
 
